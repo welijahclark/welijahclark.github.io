@@ -4,7 +4,7 @@
 
 ### Some of my projects:
 
-#### [FSU Libraries Student Engagement Survey Project](/https://repository.lib.fsu.edu/islandora/object/fsu:857160)
+#### [FSU Libraries Student Engagement Survey Project](https://repository.lib.fsu.edu/islandora/object/fsu:857160)
 <img src="images/FSU_analysis_career_histogram.png/">
 
 This project worked on insights related to student statements the importance of data, and how much it aligned with their academic data services usage. 
