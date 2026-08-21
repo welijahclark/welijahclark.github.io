@@ -2,7 +2,7 @@ title: "William Elijah Clark" # your name (or website title) here
 logo: "/images/welijahclark_photo.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   "This is my data portfolio. 
-  Feel free to reach for any inquiries."
+  Feel free to reach for any inquiries." <br> <br>
   <a href="https://www.linkedin.com/in/w-elijah-clark/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
