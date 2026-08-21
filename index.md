@@ -7,7 +7,7 @@
 #### [FSU Libraries Student Engagement Survey Project](https://repository.lib.fsu.edu/islandora/object/fsu:857160)
 <img src="images/FSU_analysis_career_histogram.png?raw=true">
 
-This project worked on insights related to student statements the importance of data, and how much it aligned with their academic data services usage. 
+While undergraduate students often say that data skills are important for their careers, does this translate into data service usage? This research project aimed to gather insights on that question for Florida State University Libraries. You can read the full report [here](https://repository.lib.fsu.edu/islandora/object/fsu:857160), or take a look at my code [here](https://github.com/welijahclark/FSU-Libraries-Data-Fellowship-Survey-Project/tree/main).
 
 ---
 #### [Linked File Project](/files/Day 12 - 21 days to data.pdf)
