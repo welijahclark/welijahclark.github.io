@@ -5,7 +5,7 @@
 ### Learn About My Projects
 
 #### [Internal Blog Post Project](/bank)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/FSU_analysis_career_histogram.png/">
 Tolulope is the best
 
 ---
