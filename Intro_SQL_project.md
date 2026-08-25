@@ -8,8 +8,8 @@ Be sure to follow *The Interesting Project Template* as shown in [**The Data Sci
 
 Just like this. And you can even add internal coding blocks
 
-```python
-print('this is the python code I used to solve this problem')
+```sql
+SELECT * FROM IDA_Statements;
 ```
 
 ### 2. You can add any images you'd like. 
