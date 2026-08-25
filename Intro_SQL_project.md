@@ -1,28 +1,53 @@
 ##SQL Project: World Bank IDA Statements
 
-**Project description:** This is an introductory SQL project 
+**Project description:** This is an introductory SQL project that goes through historical data for IDA Statement Of Credits, Grants and Guaranteesvfrom The World Bank Group. [The raw data used is available here](https://financesone.worldbank.org/ida-statement-of-credits-grants-and-guarantees-historical-data/DS00976). These queries were written in DB Browser for SQLite after turning the .csv from The World Bank Group into a database.
 
-### 1. You can have sections and text.
+
+
+Show us all transactions from the Nicaragua (the country)?
+
+How many total transactions? 
+
+How many total transactions per country?? 
+
+What is the max owed to the IDA?
+
+Which was the most recent to pay?
+
+Who has the most loans? 
+
+### 1. Returning all of the table
 
 ```sql
 SELECT * FROM IDA_Statements;
 ```
 
+### 2. Returning all records from table, but only the borrower & "Due to IDA" fields 
+
 ```sql
 SELECT  Borrower, [Due to IDA (US$)] FROM IDA_Statements; 
 ```
+### 3. Limiting the above query to only five records 
+
 ```sql
 SELECT  Borrower, [Due to IDA (US$)] FROM IDA_Statements LIMIT 5; 
 ```
+### 4. Created an alias for one field for clarity 
+
 ```sql
 SELECT  Region, [Due to IDA (US$)] AS [Amount Due] FROM IDA_Statements LIMIT 20;
 ```
+### 5. Pulling all records and all fields for Nicaragua only
+
 ```sql
 SELECT * FROM IDA_Statements WHERE [Country / Economy] = 'Nicaragua';
 ```
+### 6. Pulling a 
+
 ```sql
 SELECT COUNT([Due to IDA (US$)]) FROM IDA_Statements WHERE [Country / Economy] = 'Nicaragua';
 ```
+
 ```sql
 SELECT [Country / Economy], COUNT(*) FROM IDA_Statements GROUP BY [Country / Economy];
 ```
