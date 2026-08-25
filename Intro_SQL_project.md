@@ -22,6 +22,8 @@ Who has the most loans?
 SELECT * FROM IDA_Statements;
 ```
 
+<img src="images/select_from_IDA_Statements_results.png"/>
+
 ### 2. Returning all records from table, but only the borrower & "Due to IDA" fields 
 
 ```sql
