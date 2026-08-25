@@ -1,12 +1,8 @@
 ##SQL Project: World Bank IDA Statements
 
-**Project description:** You can use this template to create projects in the future. Simply duplicate the page and change the text and images. 
-
-Be sure to follow *The Interesting Project Template* as shown in [**The Data Science Project Studio**](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592). 
+**Project description:** This is an introductory SQL project 
 
 ### 1. You can have sections and text.
-
-Just like this. And you can even add internal coding blocks
 
 ```sql
 SELECT * FROM IDA_Statements;
