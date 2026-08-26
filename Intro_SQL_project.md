@@ -16,7 +16,7 @@ Which was the most recent to pay?
 
 Who has the most loans? 
 
-### 1. Returning all of the table
+### 1. Returning the entire table
 
 ```sql
 SELECT * FROM IDA_Statements;
