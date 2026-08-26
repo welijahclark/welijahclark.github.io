@@ -1,4 +1,4 @@
-#**SQL Project: World Bank IDA Statement Insights**
+# **SQL Project: World Bank IDA Statement Insights**
 
 **Project description:** This is an introductory SQL project that goes through historical data for IDA Statement Of Credits, Grants and Guaranteesvfrom The World Bank Group. [The raw data used is available here](https://financesone.worldbank.org/ida-statement-of-credits-grants-and-guarantees-historical-data/DS00976). These queries were written in DB Browser for SQLite after turning the .csv from The World Bank Group into a database.
 
