@@ -3,9 +3,6 @@
 **Project description:** This is an introductory SQL project that goes through historical data for IDA Statement Of Credits, Grants and Guaranteesvfrom The World Bank Group. [The raw data used is available here](https://financesone.worldbank.org/ida-statement-of-credits-grants-and-guarantees-historical-data/DS00976). These queries were written in DB Browser for SQLite after turning the .csv from The World Bank Group into a database.
 
 
-
-Show us all transactions from the Nicaragua (the country)?
-
 How many total transactions? 
 
 How many total transactions per country?? 
@@ -27,24 +24,30 @@ SELECT * FROM IDA_Statements;
 ### 2. Returning all records from table, but only the borrower & "Due to IDA" fields 
 
 ```sql
-SELECT  Borrower, [Due to IDA (US$)] FROM IDA_Statements; 
+SELECT  Borrower, [Due to IDA (US$)] FROM IDA_Statements;
 ```
+
+<img src="images/select_borrower_duetoIDA__statement_results.png"/>
+
 ### 3. Limiting the above query to only five records 
 
 ```sql
 SELECT  Borrower, [Due to IDA (US$)] FROM IDA_Statements LIMIT 5; 
 ```
+<img src="images/select_borrower_duetoIDA__statement_limited_results.png"/>
+
 ### 4. Created an alias for one field for clarity 
 
 ```sql
 SELECT  Region, [Due to IDA (US$)] AS [Amount Due] FROM IDA_Statements LIMIT 20;
 ```
+
 ### 5. Pulling all records and all fields for Nicaragua only
 
 ```sql
 SELECT * FROM IDA_Statements WHERE [Country / Economy] = 'Nicaragua';
 ```
-### 6. Pulling a 
+### 6. Pulling the count of 
 
 ```sql
 SELECT COUNT([Due to IDA (US$)]) FROM IDA_Statements WHERE [Country / Economy] = 'Nicaragua';
@@ -88,10 +91,4 @@ SELECT * FROM IDA_Statements WHERE [Project Name] = 'COTTON' OR [Project Name] =
 ```sql
 SELECT * FROM IDA_Statements WHERE [Project Name] IS NOT 'COTTON';
 ```
-
-
-### 2. You can add any images you'd like. 
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
 
