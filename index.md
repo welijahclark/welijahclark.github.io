@@ -25,6 +25,5 @@ This is a short Excel Power Regression article I published on LinkedIn. I also h
 #### [SQL Project #1](DAA_Intro_SQL_project.md)
 <img src="images/21 Days To Data Challenge.png?raw=true"/>
 
-The above project is a short walkthrough of basic SQL using IDA loan statement data available from The World Bank Group.
+The above project is a short walkthrough of basic SQL using IDA loan statement data available from the World Bank Group
 ---
-
